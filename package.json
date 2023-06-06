@@ -32,17 +32,5 @@
 		"eslint": "7.32.0",
 		"eslint-config-next": "11.1.2",
 		"file-loader": "^6.2.0"
-	},
-	"eslintConfig": {
-		"extends": "react-app",
-		"rules": {
-			"no-unused-vars": [
-				"warn",
-				{
-					"argsIgnorePattern": "^_",
-					"varsIgnorePattern": "^_"
-				}
-			]
-		}
 	}
 }

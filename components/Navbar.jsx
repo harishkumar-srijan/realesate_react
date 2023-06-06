@@ -31,7 +31,7 @@ function Navbar() {
 		<div>
 			<Flex className={`header ${appColor}`}>
 				<Box className='logo'>
-					<Link href='/' paddingLeft='2' passref>
+					<Link href='/' paddingLeft='2' passHref>
 						<Image src={Logo} alt='Your SVG' />
 					</Link>
 				</Box>
@@ -51,18 +51,26 @@ function Navbar() {
 					<Menu>
 						<MenuButton as={IconButton} icon={<FcMenu />} variant='outline' />
 						<MenuList>
-							<a href='/' passHerf>
-								<MenuItem icon={<FcHome />}>Home</MenuItem>
-							</a>
-							<a href='/search' passHerf>
-								<MenuItem icon={<BsSearch />}>Search</MenuItem>
-							</a>
-							<a href='/search?purpose=for-sale' passHerf>
-								<MenuItem icon={<FcAbout />}>Buy Property</MenuItem>
-							</a>
-							<a href='/search?purpose=for-rent' passHerf>
-								<MenuItem icon={<FiKey />}>Rent Property</MenuItem>
-							</a>
+							<Link href='/'>
+								<a>
+									<MenuItem icon={<FcHome />}>Home</MenuItem>
+								</a>
+							</Link>
+							<Link href='/Search' passHerf>
+								<a>
+									<MenuItem icon={<BsSearch />}>Search</MenuItem>
+								</a>
+							</Link>
+							<Link href='/Search?purpose=for-sale' passHerf>
+								<a>
+									<MenuItem icon={<FcAbout />}>Buy Property</MenuItem>
+								</a>
+							</Link>
+							<Link href='/Search?purpose=for-rent' passHerf>
+								<a>
+									<MenuItem icon={<FiKey />}>Rent Property</MenuItem>
+								</a>
+							</Link>
 						</MenuList>
 					</Menu>
 				</Box>

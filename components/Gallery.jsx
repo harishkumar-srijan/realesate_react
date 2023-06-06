@@ -6,7 +6,6 @@ import 'lightbox.js-react/dist/index.css';
 const Gallery = () => {
 	return (
 		<div>
-			sider
 			{/* <SlideshowLightbox className='container grid grid-cols-3 gap-2 mx-auto'>
 				<img
 					className='w-full rounded'

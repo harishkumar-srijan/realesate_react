@@ -7,7 +7,7 @@ import Property from '../components/Property';
 import SearchFilters from '../components/SearchFilters';
 import { baseUrl, fetchApi } from '../utils/fetchApi';
 
-const search = ({ properties }) => {
+const Search = ({ properties }) => {
 	const [searchFilter, setSearchFilter] = useState(true);
 	const router = useRouter();
 
@@ -38,7 +38,7 @@ const search = ({ properties }) => {
 	);
 };
 
-export default search;
+export default Search;
 
 // set api parameter on serverside hit
 export async function getServerSideProps({ query }) {

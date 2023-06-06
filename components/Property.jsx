@@ -24,7 +24,7 @@ const Property = ({
 }) => {
 	return (
 		<div>
-			<a href={`/property/${externalID}`} passHref className='property__box'>
+			<a href={`/property/${externalID}`} className='property__box'>
 				<Flex className='property__box--image'>
 					<Box>
 						<Image
