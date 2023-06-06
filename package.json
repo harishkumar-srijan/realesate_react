@@ -15,7 +15,6 @@
 		"axios": "^0.23.0",
 		"framer-motion": "^4.1.17",
 		"i18next": "^22.5.0",
-		"lightbox.js-react": "^0.6.4",
 		"millify": "^4.0.0",
 		"next": "11.1.2",
 		"nprogress": "^0.2.0",
