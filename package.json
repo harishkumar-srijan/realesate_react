@@ -1,20 +1,48 @@
 {
-  "name": "realestate",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "13.4.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "8.41.0",
-    "eslint-config-next": "13.4.4"
-  }
+	"name": "realestate",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@chakra-ui/react": "^1.6.8",
+		"@emotion/react": "^11.4.1",
+		"@emotion/styled": "^11.3.0",
+		"axios": "^0.23.0",
+		"framer-motion": "^4.1.17",
+		"i18next": "^22.5.0",
+		"lightbox.js-react": "^0.6.4",
+		"millify": "^4.0.0",
+		"next": "11.1.2",
+		"nprogress": "^0.2.0",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"react-horizontal-scrolling-menu": "^2.3.2",
+		"react-i18next": "^12.3.1",
+		"react-icons": "^4.2.0",
+		"react-slick": "^0.29.0",
+		"slick-carousel": "^1.8.1"
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint": "7.32.0",
+		"eslint-config-next": "11.1.2",
+		"file-loader": "^6.2.0"
+	},
+	"eslintConfig": {
+		"extends": "react-app",
+		"rules": {
+			"no-unused-vars": [
+				"warn",
+				{
+					"argsIgnorePattern": "^_",
+					"varsIgnorePattern": "^_"
+				}
+			]
+		}
+	}
 }
